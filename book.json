@@ -1,0 +1,52 @@
+{
+	"title": "程序员狗蛋",
+	"author": "张利利",
+	"description": "张利利的工作、学习分享",
+	"plugins": [
+		"-chapter-fold",
+		"expandable-chapters-small",
+		"back-to-top-button",
+		"-lunr",
+		"-search",
+		"-search-pro",
+		"search-plus",
+		"theme-comscore",
+ 		"copy-code-button",
+ 		"splitter",
+ 		"-sharing",
+ 		"donate",
+		"prism",
+ 		"-highlight",
+		"pageview-count",
+		"page-toc-button",
+		"custom-favicon",
+		"tbfed-pagefooter"
+	],
+	"pluginsConfig": {
+		"donate": {
+	        "button": "捐赠",
+            "alipayText": "支付宝",
+            "wechatText": "微信",
+            "alipay": "/donate/zfb.png",
+            "wechat": "/donate/wx.png"
+		},
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy zllbook.tudouwa.fun 2021 京ICP备19023226号",
+			"modify_label": "文件修订时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"prism" : {
+        	"css" : [
+                 "prismjs/themes/prism-solarizedlight.css"
+        	]
+        },
+		"page-toc-button" : {
+		    "maxTocDepth": 3,
+            "minTocSize": 2
+		},
+		"favicon" : "/styles/images/favicon.ico"
+	},
+	"styles" : {
+		 "website": "styles/website.css"
+	}
+}

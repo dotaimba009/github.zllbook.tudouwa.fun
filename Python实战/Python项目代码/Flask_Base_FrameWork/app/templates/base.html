@@ -1,0 +1,25 @@
+{% extends 'bootstrap/base.html' %}
+{% block title %}title name {% endblock %}
+{% block styles %}
+    {{ super() }}
+    <link rel="icon"
+          href="{{ url_for('static', filename='icon.png') }}"
+          type="image/x-icon">
+{% endblock %}}
+
+{% block navbar %}
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+
+{% block page_content %}
+    {{ super() }}
+    <h3>Time now is {{ moment(current_time).format('LLL') }}</h3><hr>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    {{ moment.include_moment() }}
+    {{ moment.locale('zh-CN') }}
+{% endblock %}

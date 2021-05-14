@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% from 'marco.html' import show_pagination %}
+{% block title %}首页{% endblock %}
+{#{% block head %}#}
+{#    {{ super() }}#}
+{#    {{ ckeditor.load() }}#}
+{#{% endblock %}#}
+{% block page_content %}
+    <div class="container">
+        {{ wtf.quick_form(form,button_map={'submit':'info'}) }}
+    </div>
+    <hr>
+
+    {{ show_pagination(pagination) }}
+
+{% endblock %}
+
+{% block scripts %}
+
+{% endblock %}

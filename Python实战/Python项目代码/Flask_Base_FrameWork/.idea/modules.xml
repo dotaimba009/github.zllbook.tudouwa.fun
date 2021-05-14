@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Flask_Base_FrameWork.iml" filepath="$PROJECT_DIR$/.idea/Flask_Base_FrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Python进阶/flask_logging_demo-master/.idea/flask_logging_demo-master.iml" filepath="$PROJECT_DIR$/../../Python进阶/flask_logging_demo-master/.idea/flask_logging_demo-master.iml" />
+    </modules>
+  </component>
+</project>
